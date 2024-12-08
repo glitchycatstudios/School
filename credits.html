@@ -68,11 +68,54 @@ h1{
     top: 55%;
     text-align: center;
 }
+.topbar {
+  background-color: #333;
+  overflow: hidden;
+}
+.topbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topbar a.active {
+  background-color: darkblue;
+  color: white;
+}
+.img1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 99.5%;
+    transform: translateX(-99.5%);
+    top: 1.5%;
+}
+.logotext{
+    color: white;
+    position: absolute;
+    left: 92%;
+    transform: translateX(-92%);
+    top: -1.5%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 </style>
 <body>
-<a href="menu">
-<button style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="button button1">Menu</button>
-</a> 
+    <div class="topbar">
+        <a href="index">Home</a>
+        <a href="quiz">Quiz</a>
+        <a href="games">Games</a>
+        <a href="studio">Studio</a>
+     </div>
+     <h3 class="logotext">Glitchy Cat Studios</h3>
+     <img class="img1" src="icon_logo.png">
 <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; ">Credits</h1>
 <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;" class="h2 h21">Main Website: Valentijn Schuurbiers.</h2>
 <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;" class="h2 h22">Main Code: valentijn Schuurbiers.</h2>
